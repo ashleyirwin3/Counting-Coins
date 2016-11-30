@@ -10,11 +10,20 @@
 
 */
 
-function coinCounter () {
+function coinCounter (num) {
   // Initialize a JavaScript object to hold the coins
-  var coinPurse = {};
+  
 
-  coinPurse.quarters = 0;
+  var coinPurse = {
+
+  coinPurse.quarters = 25%;
+  coinPurse.dimes = 10%;
+  coinPurse.nickels = 5%;
+  coinPurse.pennies = 1%;
+};
+
+for (function coinCounter)
+  
 
   return coinPurse;
 }
