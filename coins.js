@@ -10,23 +10,34 @@
 
 */
 
-function coinCounter (num) {
-  // Initialize a JavaScript object to hold the coins
-  
 
-  var coinPurse = {
+    var coinPurseId = document.getElementById("coinPurse")
 
-  coinPurse.quarters = 25%;
-  coinPurse.dimes = 10%;
-  coinPurse.nickels = 5%;
-  coinPurse.pennies = 1%;
+    function coinCounter(total) {
+
+// / Initialize a JavaScript object to hold the coins
+    
+    var coinPurse = {};
+
+    total = total*100;
+    console.log(total)
+    
+    var coinPurse = {
+    quarters: null,
+    dimes: null,
+    nickels: null,
+    pennies: null,
 };
 
-for (function coinCounter)
-  
+    var coinPurse.quarters = 25/total;
+    var coinPurse.dimes = 10/total;
+    var coinPurse.nickels = 5/total;
+    var coinPurse.pennies = 1/total;
+ 
 
-  return coinPurse;
+return total;
 }
 
-var coins = coinCounter()
+
+var coins = coinCounter(.67)
 console.log();
